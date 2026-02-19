@@ -1,0 +1,6 @@
+@MedClaim.Policy.API_HostAddress = http://localhost:5159
+
+GET {{MedClaim.Policy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

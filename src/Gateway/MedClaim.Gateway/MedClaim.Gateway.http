@@ -1,0 +1,6 @@
+@MedClaim.Gateway_HostAddress = http://localhost:5137
+
+GET {{MedClaim.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
