@@ -47,13 +47,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedClaim.Claims.Tests", "te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedClaim.Policy.Tests", "tests\MedClaim.Policy.Tests\MedClaim.Policy.Tests.csproj", "{F973DBB0-D0F4-4B85-888F-7533ABB20A5C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SupportingFiles", "SupportingFiles", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Architecture.md = Architecture.md
+		CQRS_CleanArchitecture.md = CQRS_CleanArchitecture.md
+		EntityRelationships.md = EntityRelationships.md
+		GetClaimByIdQueryFlow.md = GetClaimByIdQueryFlow.md
+		OutboxPattern.md = OutboxPattern.md
+		SubmitClaimSequence.md = SubmitClaimSequence.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1C492F57-1168-461B-9234-A00D6ADC6AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -113,6 +120,9 @@ Global
 		{F973DBB0-D0F4-4B85-888F-7533ABB20A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F973DBB0-D0F4-4B85-888F-7533ABB20A5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4CC006B4-7D5F-4E99-A87A-E945868262BD} = {C4ACBF5A-E236-4CF8-A097-61CE303B86BB}
 		{1C492F57-1168-461B-9234-A00D6ADC6AE9} = {4CC006B4-7D5F-4E99-A87A-E945868262BD}
@@ -134,5 +144,8 @@ Global
 		{7C63908F-8A3D-4D3B-ACB9-1BA74A8BF680} = {8B9B793E-0E0A-47EA-8369-7A4BBF380700}
 		{6CD8DBE7-FB94-4EE6-B3C4-31D8785B1D33} = {D46B08FD-C447-4708-9C69-BD33ECE86A19}
 		{F973DBB0-D0F4-4B85-888F-7533ABB20A5C} = {D46B08FD-C447-4708-9C69-BD33ECE86A19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E8A8F2-CDAC-481A-B7C0-E710C3472BAA}
 	EndGlobalSection
 EndGlobal
