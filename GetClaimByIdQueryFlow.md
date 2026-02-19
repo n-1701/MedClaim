@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant Client
     participant FastEndpoint as GetClaimEndpoint

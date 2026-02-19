@@ -1,3 +1,4 @@
+```mermaid
 graph LR
     Domain[Domain Layer<br/>Entities, Enums, Events]
     Application[Application Layer<br/>Commands, Queries, Interfaces]
