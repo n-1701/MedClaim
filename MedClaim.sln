@@ -51,10 +51,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SupportingFiles", "Supporti
 	ProjectSection(SolutionItems) = preProject
 		Architecture.md = Architecture.md
 		CQRS_CleanArchitecture.md = CQRS_CleanArchitecture.md
-		EntityRelationships.md = EntityRelationships.md
 		GetClaimByIdQueryFlow.md = GetClaimByIdQueryFlow.md
+		EntityRelationships.md = EntityRelationships.md
 		OutboxPattern.md = OutboxPattern.md
 		SubmitClaimSequence.md = SubmitClaimSequence.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
 Global

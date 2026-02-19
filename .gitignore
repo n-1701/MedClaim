@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/src/Services/Notification/MedClaim.Notification.Worker/appsettings.json
+/src/Services/Claims/MedClaim.Claims.API/appsettings.json
+/src/Services/Policy/MedClaim.Policy.API/appsettings.json
