@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     Start([Command Handler Executes])
     CreateEntity[Create Domain Entity - Claim.Create]
